@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@font-face {
+    font-family: freight;
+    src: url('./Freight\ Text\ Book/Freight');
+  }
+body{
+    font-family: Open Sans,sans-serif !important;
+}
+.bg-colorr{
+    background-color: rgba(244,244,244);
+}
+.nav-fixed {
+    color: white;
+    background: linear-gradient( 0deg,transparent 0,#000 200%);
+     text-shadow: 2px 2px 9px rgb(0 0 0 / 80%);
+  }
+  .navigation-fix {
+    color: white;
+    background: linear-gradient( 0deg,transparent 0,#000 200%);
+     text-shadow: 2px 2px 9px rgb(0 0 0 / 80%);
+  }
+  .navigation-active {
+    background-color: #fff;
+    background-image: unset;
+    color: black !important;
+    text-shadow:unset !important;
+  }
+  .navigation-logo {
+    color: black !important;
+  }
+  .nav-active {
+    background-color: #fff;
+    background-image: unset;
+    color: black !important;
+    text-shadow:unset !important;
+  }
+  .logo-black {
+    color: black !important;
+  }
+.font-freight{
+    font-family: freight;
+}
+.hero-content .hero-img{
+    min-height: 662px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.nav-list ul li a:hover{
+    border-bottom: 1px solid white;
+}
+.nav-list ul li a{
+    font-size: 14.5px;
+    letter-spacing: -0.5px;
+    text-shadow: 2px 2px 9px rgb(0 0 0 / 80%);
+    
+}
+.card{
+    min-height: 380px;
+    width: 100%;
+}
+.card-main{
+    width:31%;
+}
+.responsive-card{
+    width: 100%;
+}
+.hero-content{
+    height: 822px;
+}
+.link-des li a{
+    color: #b2b2b2!important;
+}
+.footer-txt-color{
+    color:#4a4a4a;
+}
+.footer-hov :hover{
+    color: #0095b3!important;
+}
+.w-custom{
+    max-width: 1128px !important;
+    padding: 73px 36px;
+}
+.f-con-1{
+    flex-basis: 253px;
+    margin-right: 12px;
+}
+.f-con-2{
+    flex-basis: 165px;
+}
+.f-con-3{
+    flex-basis: 165px;
+}
+.f-con-4{
+    flex-basis: 109px;
+}
+.cus-des{
+    font-weight: 400;
+    letter-spacing: -.1px;
+    line-height: 16px !important;
+}
+.mbl-n{
+    display: block;
+}
+.mbl-list{
+    background-image: url(/images/menu-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 72vh;
+}
+.mbl-h{
+    height: 62vh;
+}
+.ham-txt-color ul li a{
+    color:#504949;
+}
+/* ============================== mobile hamburger styling ================================= */
+@media (max-width: 767px) and (min-width: 320px) {
+.card-main{
+    width: 100%;
+}
+.mbl-n{
+    display: none;
+}
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+    .card-main{
+        width: 48%;
+    }
+    }
+
+
+
+
+
+
